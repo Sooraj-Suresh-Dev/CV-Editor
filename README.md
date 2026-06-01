@@ -131,7 +131,7 @@ This repository contains project documentation, screenshots, and technical infor
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](/public/repo/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
 ---
 
