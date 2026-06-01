@@ -56,18 +56,18 @@ graph TD
     B --> J[API Layer: Vercel Serverless]
     J --> K[Authentication: Auth0]
     J --> L[Storage: AWS S3]
-    style A fill:#f9f,stroke:#333
-    style B fill:#bbf,stroke:#333
-    style C fill:#bfb,stroke:#333
-    style D fill:#fbb,stroke:#333
-    style E fill:#ffb,stroke:#333
-    style F fill:#bff,stroke:#333
-    style G fill:#bbf,stroke:#333
-    style H fill:#bfb,stroke:#333
-    style I fill:#fbb,stroke:#333
-    style J fill:#ffb,stroke:#333
-    style K fill:#bff,stroke:#333
-    style L fill:#bbf,stroke:#333
+    style A fill:#2563eb,color:#ffffff,stroke:#1e40af
+    style B fill:#7c3aed,color:#ffffff,stroke:#5b21b6
+    style C fill:#059669,color:#ffffff,stroke:#047857
+    style D fill:#dc2626,color:#ffffff,stroke:#991b1b
+    style E fill:#ca8a04,color:#ffffff,stroke:#854d0e
+    style F fill:#0891b2,color:#ffffff,stroke:#155e75
+    style G fill:#2563eb,color:#ffffff,stroke:#1e40af
+    style H fill:#059669,color:#ffffff,stroke:#047857
+    style I fill:#dc2626,color:#ffffff,stroke:#991b1b
+    style J fill:#ca8a04,color:#ffffff,stroke:#854d0e
+    style K fill:#0891b2,color:#ffffff,stroke:#155e75
+    style L fill:#2563eb,color:#ffffff,stroke:#1e40af
 ```
 
 ## How It Works
