@@ -1,138 +1,359 @@
 # CV Editor
 
-[![Status: Stable](https://img.shields.io/badge/status-stable-brightgreen.svg)](https://github.com/yourusername/cv-editor)
-[![Version: 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/cv-editor/releases)
-[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/yourusername/cv-editor/blob/main/LICENSE)
+> AI-Powered Resume Tailoring Platform for Job Seekers
 
-## Project Description
+![Status](https://img.shields.io/badge/status-beta-orange)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Platform](https://img.shields.io/badge/platform-SaaS-success)
+![License](https://img.shields.io/badge/license-MIT-yellow)
 
-CV Editor is a professional web application designed to help users create, edit, and export polished resumes with ease. Built with modern web technologies, it provides an intuitive interface for crafting ATS-friendly resumes that stand out to recruiters and pass through applicant tracking systems.
-
-## Key Features
-
-- **Intuitive Drag-and-Drop Interface**: Easily rearrange resume sections
-- **Professional Templates**: Multiple industry-approved designs
-- **Real-Time Preview**: See changes instantly as you edit
-- **ATS Optimization**: Built-in formatting for applicant tracking systems
-- **Multiple Export Formats**: PDF, DOCX, and TXT outputs
-- **Cloud Synchronization**: Save and access resumes from anywhere
-- **Customizable Sections**: Add, remove, or modify resume components
-- **Spell Check & Grammar Suggestions**: Built-in writing assistance
-
-## Screenshots
-
-| Landing Page | CV Tailor |
-|--------------|-----------|
-| ![Landing Page](screenshots/landing-page.png) | ![CV Tailor](screenshots/cv-tailor.png) |
-
-| Job Scanner | Interview Questions Predictor |
-|------------------|------------------------------|
-| ![Job Scanner](screenshots/job-scanner.png) | ![Interview Questions Predictor](screenshots/interview-questions.png) |
-
-## Technology Stack
-
-| Category | Technology |
-|----------|------------|
-| **Frontend** | React 18, TypeScript, Tailwind CSS |
-| **State Management** | Redux Toolkit |
-| **Build Tool** | Vite |
-| **Icons** | Heroicons |
-| **Export** | jsPDF, Office Generator |
-| **Deployment** | Vercel (frontend), AWS S3 (static assets) |
-| **Development** | ESLint, Prettier, Jest, React Testing Library |
-
-## System Architecture
-
-```mermaid
-graph TD
-    A[User Browser] --> B[React SPA]
-    B --> C[State Management: Redux]
-    B --> D[UI Components: Tailwind + Heroicons]
-    B --> E[Export Engine: jsPDF/Office Generator]
-    B --> F[Template System]
-    F --> G[JSON Template Files]
-    C --> H[Local Storage IndexedDB]
-    H --> I[Cloud Sync: Vercel Edge Config]
-    B --> J[API Layer: Vercel Serverless]
-    J --> K[Authentication: Auth0]
-    J --> L[Storage: AWS S3]
-    style A fill:#2563eb,color:#ffffff,stroke:#1e40af
-    style B fill:#7c3aed,color:#ffffff,stroke:#5b21b6
-    style C fill:#059669,color:#ffffff,stroke:#047857
-    style D fill:#dc2626,color:#ffffff,stroke:#991b1b
-    style E fill:#ca8a04,color:#ffffff,stroke:#854d0e
-    style F fill:#0891b2,color:#ffffff,stroke:#155e75
-    style G fill:#2563eb,color:#ffffff,stroke:#1e40af
-    style H fill:#059669,color:#ffffff,stroke:#047857
-    style I fill:#dc2626,color:#ffffff,stroke:#991b1b
-    style J fill:#ca8a04,color:#ffffff,stroke:#854d0e
-    style K fill:#0891b2,color:#ffffff,stroke:#155e75
-    style L fill:#2563eb,color:#ffffff,stroke:#1e40af
-```
-
-## How It Works
-
-1. **Template Selection**: Choose from professionally designed templates
-2. **Content Entry**: Fill in your information using the intuitive editor
-3. **Real-Time Formatting**: Watch your resume update instantly with perfect spacing
-4. **Customization**: Adjust colors, fonts, and layout to match your personal brand
-5. **Validation**: Built-in checks for ATS compatibility and content completeness
-6. **Export**: Generate PDF, DOCX, or TXT files with one click
-7. **Storage**: Save locally or sync to cloud for access across devices
-
-## ATS-Friendly Resume Support
-
-CV Editor ensures your resume passes applicant tracking systems through:
-- **Standard Section Headings**: Uses recognizable titles (Experience, Education, Skills)
-- **Keyword Optimization**: Fields designed to capture relevant terminology
-- **Clean Formatting**: Avoids tables, graphics, and complex layouts that confuse ATS
-- **Machine-Readable Text**: All content is selectable and searchable text
-- **File Format Compatibility**: Exports to ATS-preferred PDF and DOCX formats
-
-## Export Functionality
-
-- **PDF**: Print-ready, high-resolution output with embedded fonts
-- **DOCX**: Fully editable Microsoft Word document
-- **TXT**: Plain text version for simple applications
-- **Custom Branding**: Option to add personal logo or header
-- **Page Settings**: Adjust margins, orientation, and paper size
-- **Batch Export**: Generate multiple formats simultaneously
-
-## Future Roadmap
-
-| Feature | Description | Status |
-|---------|-------------|--------|
-| 🤖 AI-Powered Resume Suggestions | Get intelligent recommendations for content improvement | Planned |
-| 📝 Cover Letter Generation | Create matching cover letters with one click | Planned |
-| 🔗 LinkedIn Profile Import | Seamlessly import profile data from LinkedIn | Planned |
-| 🎨 Additional Resume Templates | Expand template library with industry-specific designs | In Progress |
-| 📊 Resume Scoring & ATS Analysis | Get detailed feedback on resume effectiveness | Planned |
-| 🌐 Multi-Language Support | Create resumes in multiple languages | Planned |
-| ☁️ Team Collaboration | Share and co-edit resumes with colleagues | Planned |
-| 🔍 Analytics Dashboard | Track resume views and application success rates | Planned |
-
-## Live Website
-
-Experience CV Editor live at: [https://cv-editor.example.com](https://cv-editor-bice.vercel.app/)
-
-*Note: Replace with your actual live website URL*
-
-## Contact
-
-Have questions or feedback? Reach out to us:
-
-- **Email**: techalchemist9597@gmail.com
-- **LinkedIn**: [CV Editor Company Page](https://www.linkedin.com/in/sooraj2004/)
-- **Issue Tracker**: [GitHub Issues](https://github.com/Sooraj-Suresh-Dev/CV-Editor/issues)
-
-## Disclaimer
-
-This repository contains project documentation, screenshots, and technical information. The production source code is maintained in a private repository.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
+> ⚠️ Note: This public repository contains project documentation, screenshots, architecture details, and feature overviews only. The production source code is maintained in a private repository.
 
 ---
 
-*Made with ❤️ for job seekers worldwide*
+## 🌐 Live Demo
+
+**Try CV Editor:**
+
+https://cv-editor-bice.vercel.app
+
+---
+
+# 🚀 Project Overview
+
+CV Editor is an AI-powered SaaS platform designed to help job seekers tailor their resumes for specific job opportunities.
+
+Instead of manually editing resumes for every application, users can upload a base resume, paste a job description, and instantly generate an ATS-optimized version that aligns with the target role.
+
+The platform combines AI-powered resume optimization, document management, interview preparation tools, subscription management, and analytics into a single streamlined experience.
+
+---
+
+# ✨ Key Features
+
+## 🤖 AI Resume Tailoring
+
+- Upload existing resumes (DOCX)
+- Paste or save job descriptions
+- AI-powered resume optimization
+- ATS keyword alignment
+- Resume enhancement and restructuring
+- Match score analysis
+- Optimization summary and recommendations
+
+## 📄 Resume Management
+
+- Secure resume library
+- Upload and manage multiple resumes
+- Store tailored resume versions
+- DOCX export support
+- PDF export support
+
+## 💼 Job Management
+
+- Save job descriptions
+- Track target positions
+- Reuse saved jobs
+- Manage application-specific resume versions
+
+## 🎯 Interview Preparation
+
+- AI-generated interview questions
+- Job-specific preparation assistance
+- Technical and behavioral interview suggestions
+
+## 💳 Subscription & Credits System
+
+- Credit-based AI generation
+- Razorpay payment integration
+- Dynamic pricing plans
+- Pro subscriptions
+- Credit purchase workflow
+
+## 📊 User Dashboard
+
+- Resume management
+- Credit tracking
+- Tailoring history
+- Saved jobs
+- Account settings
+
+## 🛡️ Admin Dashboard
+
+- User management
+- Analytics monitoring
+- Promo code management
+- Subscription tracking
+- Customer support tools
+
+---
+
+# 📸 Screenshots
+
+## Landing Page & AI Resume Tailoring
+
+| Landing Page | AI Resume Tailoring |
+|--------------|---------------------|
+| ![Landing Page](screenshots/landing-page.png) | ![AI Resume Tailoring](screenshots/cv-tailor.png) |
+
+## Job Scanner & Interview Questions Generator
+
+| Job Scanner | Interview Questions Generator |
+|-------------|-------------------------------|
+| ![Job Scanner](screenshots/job-scanner.png) | ![Interview Questions Generator](screenshots/interview-questions.png) |
+
+---
+
+# 🛠 Technology Stack
+
+## Frontend
+
+| Technology | Purpose |
+|------------|---------|
+| React 19 | User Interface |
+| TypeScript | Type Safety |
+| Vite | Build Tool |
+| React Router DOM | Routing |
+| Framer Motion | Animations |
+| Vanilla CSS | Styling |
+
+## Document Processing
+
+| Technology | Purpose |
+|------------|---------|
+| Mammoth.js | DOCX Parsing |
+| docx-preview | Document Preview |
+| @eigenpal/docx-js-editor | DOCX Editing |
+| pdfjs-dist | PDF Processing |
+
+## Backend
+
+| Technology | Purpose |
+|------------|---------|
+| Express.js | REST API |
+| Node.js | Server Runtime |
+
+## Database & Infrastructure
+
+| Technology | Purpose |
+|------------|---------|
+| Supabase PostgreSQL | Database |
+| Supabase Auth | Authentication |
+| Supabase Storage | File Storage |
+| Render | Backend Hosting |
+| Vercel | Frontend Hosting |
+
+## AI & Payments
+
+| Technology | Purpose |
+|------------|---------|
+| OpenRouter API | AI Processing |
+| Razorpay | Subscription & Payments |
+
+---
+
+# 🏗 System Architecture
+
+```mermaid
+graph TD
+
+A[User Browser]
+
+A --> B[React Frontend]
+B --> C[Express Backend]
+
+C --> D[Supabase Auth]
+C --> E[PostgreSQL Database]
+C --> F[Supabase Storage]
+
+C --> G[OpenRouter AI]
+C --> H[Razorpay]
+
+G --> I[Resume Tailoring Engine]
+G --> J[Interview Preparation Engine]
+
+E --> K[User Data]
+E --> L[Job Descriptions]
+E --> M[Credit System]
+
+F --> N[Resume Files]
+```
+
+---
+
+# 🗺 Application Routes
+
+## Public Pages
+
+| Route | Description |
+|---------|-------------|
+| `/` | Landing Page |
+| `/about` | About Platform |
+| `/how-it-works` | Product Walkthrough |
+| `/pricing` | Pricing Plans |
+
+## Authentication
+
+| Route | Description |
+|---------|-------------|
+| `/login` | User Login |
+| `/signup` | User Registration |
+| `/auth/callback` | Authentication Callback |
+
+## User Portal
+
+| Route | Description |
+|---------|-------------|
+| `/onboarding` | First-Time Setup |
+| `/dashboard` | Main User Dashboard |
+| `/settings` | Account Settings |
+
+## Admin Portal
+
+| Route | Description |
+|---------|-------------|
+| `/admin` | Platform Administration |
+
+---
+
+# ⚙️ How CV Editor Works
+
+## Step 1 — Upload Resume
+
+Upload your existing resume in DOCX format.
+
+## Step 2 — Add Job Description
+
+Paste a job posting or select a previously saved job.
+
+## Step 3 — AI Analysis
+
+The AI analyzes:
+
+- Required skills
+- Keywords
+- Experience requirements
+- Responsibilities
+- Industry terminology
+
+## Step 4 — Resume Optimization
+
+The system:
+
+- Rewrites relevant content
+- Aligns ATS keywords
+- Improves ATS compatibility
+- Enhances professional language
+- Increases job relevance
+
+## Step 5 — Review Results
+
+Users receive:
+
+- Tailored resume
+- Match score
+- Keyword analysis
+- Optimization summary
+
+## Step 6 — Export
+
+Download the optimized resume as:
+
+- DOCX
+- PDF
+
+---
+
+# 🔒 Security
+
+- JWT-based authentication
+- Secure file storage
+- Protected API endpoints
+- Role-based access control
+- Encrypted user sessions
+- Secure payment processing
+
+---
+
+# 🚀 Deployment
+
+| Service | Platform |
+|----------|----------|
+| Frontend | Vercel |
+| Backend | Render |
+| Database | Supabase PostgreSQL |
+| Authentication | Supabase Auth |
+| File Storage | Supabase Storage |
+
+---
+
+# 🛣 Future Roadmap
+
+- AI Cover Letter Generator
+- Resume Version Comparison
+- Advanced ATS Analytics
+- LinkedIn Profile Import
+- Multi-language Resume Support
+- Team Collaboration
+- Resume Performance Tracking
+- Career Recommendation Engine
+
+---
+
+# 📈 Current Status
+
+### Version
+
+`v1.0.0`
+
+### Status
+
+🟢 Active Development
+
+### Deployment
+
+✅ Frontend Live
+
+✅ Backend Live
+
+✅ Database Connected
+
+✅ AI Integration Enabled
+
+---
+
+# 👨‍💻 Developer
+
+### Sooraj Suresh
+
+📧 Email: techalchemist9597@gmail.com
+
+🐙 GitHub: https://github.com/Sooraj-Suresh-Dev
+
+💼 LinkedIn: https://www.linkedin.com/in/sooraj2004/
+
+---
+
+# 📜 Disclaimer
+
+This repository contains public project documentation, screenshots, architecture information, and feature descriptions.
+
+Production source code may be maintained in private repositories for security, licensing, and commercial reasons.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+---
+
+<div align="center">
+
+### Built to help job seekers create better opportunities through intelligent resume optimization.
+
+⭐ If you like the project, consider starring the repository.
+
+</div>
