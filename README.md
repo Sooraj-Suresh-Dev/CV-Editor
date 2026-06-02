@@ -113,7 +113,7 @@ CV Editor ensures your resume passes applicant tracking systems through:
 
 ## Live Website
 
-Experience CV Editor live at: [https://cv-editor.example.com](https://cv-editor.example.com)
+Experience CV Editor live at: [https://cv-editor.example.com](https://cv-editor-bice.vercel.app/)
 
 *Note: Replace with your actual live website URL*
 
